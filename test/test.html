@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <STYLE>
+    BODY, TABLE, TD, TH, P {
+        font-family: Calibri, Verdana, Helvetica, sans serif;
+        font-size: 12px;
+        color: black;
+    }
+    .console {
+        font-family: Courier New,sans serif;
+    }
+    .filesChanged {
+        width: 10%;
+        padding-left: 10px;
+    }
+    .section {
+        width: 100%;
+        border: thin black dotted;
+    }
+    .td-title-main {
+        color: white;
+        font-size: 200%;
+        padding-left: 5px;
+        font-weight: bold;
+    }
+    .td-title {
+        color: white;
+        font-size: 120%;
+        font-weight: bold;
+        padding-left: 5px;
+        text-transform: uppercase;
+    }
+    .tr-title-success {
+        background-color: green;
+    }
+    .tr-title-failure {
+        background-color: red;
+    }
+    .tr-title-failed {
+        background-color: red;
+    }
+    .tr-title-skipped {
+        background-color: blue;
+    }
+    .tr-title-unstable {
+        background-color: purple;
+    }
+    .tr-title-aborted {
+        background-color: gray;
+    }
+    .tr-ut-section-title {
+        background-color: #e3e3e3;
+    }
+    .td-success {
+        color: green;
+    }
+    .td-failure {
+        color: red;
+    }
+    .td-failed {
+        color: red;
+    }
+    .td-skipped {
+        color: blue;
+    }
+    .td-unstable {
+        color: purple;
+    }
+    .td-aborted {
+        color: gray;
+    }
+    .border-bottom-light-gray {
+        border-bottom: 1pt solid #ddd;
+    }
+</STYLE>
+</head>
+<body>
+<table class='section'><tr class='tr-title-success'><td class='td-title-main' colspan=2>BUILD SUCCESS</td></tr><tr><td>URL:</td><td><A href='https://sbt-jenkins.delta.sbrf.ru/legacy/job/KKMB/view/sbof/job/sbof-barrier-r12.004.00/32/'>https://sbt-jenkins.delta.sbrf.ru/legacy/job/KKMB/view/sbof/job/sbof-barrier-r12.004.00/32/</A></td></tr><tr><td>Duration:</td><td>null</td></tr><tr><td>Cause:</td><td>Auto trigger</td></tr></table>
+<br>
+<table class='section'><tr class='tr-title-success'><td class='td-title' colspan=2>JOB BUILD PARAMETERS</td></tr><tr><td>param1</td><td>value1</td></tr></table>
+<br>
+<table class='section'><tr class='tr-title-success'><td class='td-title' colspan=2>STAGE RESULTS</td></tr><tr><td>checkout sources</td><td class='td-success'>SUCCESS</td></tr><tr><td>checkout config</td><td class='td-success'>SUCCESS</td></tr><tr><td>run unit tests</td><td class='td-success'>SUCCESS</td></tr><tr><td>build</td><td class='td-success'>SUCCESS</td></tr><tr><td>deploy</td><td class='td-success'>SUCCESS</td></tr><tr><td>run post checks</td><td class='td-success'>SUCCESS</td></tr></table>
+
+</body>
+</html>
