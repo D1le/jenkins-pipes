@@ -4,15 +4,15 @@ import org.myproject.bitbucket.MyProjectBitbuckets
 import org.myproject.bitbucket.MyProjectBitbucketsFactory
 import org.myproject.nexus.MyProjectNexuses
 import org.myproject.nexus.MyProjectNexusesFactory
-import ru.sbrf.pegi18.pipeline.email.EmailSender
-import ru.sbrf.pegi18.pipeline.jenkins.BuildContext
-import ru.sbrf.pegi18.pipeline.jenkins.Executable
-import ru.sbrf.pegi18.pipeline.jenkins.Jenkins
-import ru.sbrf.pegi18.pipeline.jenkins.PipelineScriptExecutable
-import ru.sbrf.pegi18.pipeline.jenkins.PipelineSupport
-import ru.sbrf.pegi18.pipeline.log.Logger
-import ru.sbrf.pegi18.pipeline.log.LoggerManager
-import ru.sbrf.pegi18.pipeline.stage.StageExecutor
+import com.github.d1le.pipeline.email.EmailSender
+import com.github.d1le.pipeline.jenkins.BuildContext
+import com.github.d1le.pipeline.jenkins.Executable
+import com.github.d1le.pipeline.jenkins.Jenkins
+import com.github.d1le.pipeline.jenkins.PipelineScriptExecutable
+import com.github.d1le.pipeline.jenkins.PipelineSupport
+import com.github.d1le.pipeline.log.Logger
+import com.github.d1le.pipeline.log.LoggerManager
+import com.github.d1le.pipeline.stage.StageExecutor
 
 /**
  * @author Alexey Lapin

@@ -1,8 +1,13 @@
 package org.myproject.jenkins
 
 import com.cloudbees.groovy.cps.NonCPS
-import ru.sbrf.pegi18.pipeline.cache.CacheEntryProvider
-import ru.sbrf.pegi18.pipeline.jenkins.*
+import com.github.d1le.pipeline.cache.CacheEntryProvider
+import com.github.d1le.pipeline.jenkins.AbstractJenkins
+import com.github.d1le.pipeline.jenkins.Cred
+import com.github.d1le.pipeline.jenkins.Credentials
+import com.github.d1le.pipeline.jenkins.Jenkins
+import com.github.d1le.pipeline.jenkins.LocalJenkins
+import com.github.d1le.pipeline.jenkins.RemoteJenkins
 
 /**
  * @author Alexey Lapin

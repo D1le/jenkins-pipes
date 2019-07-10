@@ -1,9 +1,9 @@
 package org.myproject.nexus
 
 import org.myproject.jenkins.MyProjectBuildContext
-import ru.sbrf.pegi18.pipeline.cache.CacheEntryProvider
-import ru.sbrf.pegi18.pipeline.nexus.Nexus
-import ru.sbrf.pegi18.pipeline.nexus.NexusImpl
+import com.github.d1le.pipeline.cache.CacheEntryProvider
+import com.github.d1le.pipeline.nexus.Nexus
+import com.github.d1le.pipeline.nexus.NexusImpl
 
 /**
  * @author Alexey Lapin

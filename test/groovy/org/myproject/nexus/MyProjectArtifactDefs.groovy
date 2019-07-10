@@ -1,6 +1,6 @@
 package org.myproject.nexus
 
-import ru.sbrf.pegi18.pipeline.nexus.ArtifactDef
+import com.github.d1le.pipeline.nexus.ArtifactDef
 
 /**
  * @author Alexey Lapin

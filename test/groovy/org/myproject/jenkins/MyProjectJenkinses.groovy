@@ -1,7 +1,7 @@
 package org.myproject.jenkins
 
-import ru.sbrf.pegi18.pipeline.jenkins.Jenkins
-import ru.sbrf.pegi18.pipeline.jenkins.Jenkinses
+import com.github.d1le.pipeline.jenkins.Jenkins
+import com.github.d1le.pipeline.jenkins.Jenkinses
 
 /**
  * @author Alexey Lapin

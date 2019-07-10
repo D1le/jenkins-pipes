@@ -1,10 +1,10 @@
 package org.myproject.bitbucket
 
 import org.myproject.jenkins.MyProjectBuildContext
-import ru.sbrf.pegi18.pipeline.bitbucket.Bitbucket
-import ru.sbrf.pegi18.pipeline.bitbucket.BitbucketImpl
-import ru.sbrf.pegi18.pipeline.cache.CacheEntryProvider
-import ru.sbrf.pegi18.pipeline.log.LoggerManager
+import com.github.d1le.pipeline.bitbucket.Bitbucket
+import com.github.d1le.pipeline.bitbucket.BitbucketImpl
+import com.github.d1le.pipeline.cache.CacheEntryProvider
+import com.github.d1le.pipeline.log.LoggerManager
 
 /**
  * @author Alexey Lapin

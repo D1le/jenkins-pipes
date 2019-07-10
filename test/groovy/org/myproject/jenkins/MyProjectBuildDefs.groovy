@@ -1,6 +1,6 @@
 package org.myproject.jenkins
 
-import ru.sbrf.pegi18.pipeline.jenkins.BuildDef
+import com.github.d1le.pipeline.jenkins.BuildDef
 
 /**
  * @author Alexey Lapin

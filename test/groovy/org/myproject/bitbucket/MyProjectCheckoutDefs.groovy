@@ -1,6 +1,6 @@
 package org.myproject.bitbucket
 
-import ru.sbrf.pegi18.pipeline.bitbucket.CheckoutDef
+import com.github.d1le.pipeline.bitbucket.CheckoutDef
 
 /**
  * @author Alexey Lapin

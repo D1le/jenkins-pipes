@@ -1,7 +1,7 @@
 package org.myproject.nexus
 
-import ru.sbrf.pegi18.pipeline.nexus.Nexus
-import ru.sbrf.pegi18.pipeline.nexus.Nexuses
+import com.github.d1le.pipeline.nexus.Nexus
+import com.github.d1le.pipeline.nexus.Nexuses
 
 /**
  * @author Alexey Lapin

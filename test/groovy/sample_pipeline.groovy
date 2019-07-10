@@ -2,15 +2,15 @@ import org.myproject.bitbucket.MyProjectCheckoutDefs
 import org.myproject.jenkins.MyProjectBuildContext
 import org.myproject.jenkins.MyProjectBuildDefs
 import org.myproject.nexus.MyProjectArtifactDefs
-import ru.sbrf.pegi18.pipeline.bitbucket.CheckoutDef
-import ru.sbrf.pegi18.pipeline.email.StageResultsBlock
-import ru.sbrf.pegi18.pipeline.jenkins.BuildDef
-import ru.sbrf.pegi18.pipeline.log.LoggerManager
-import ru.sbrf.pegi18.pipeline.nexus.ArtifactDef
+import com.github.d1le.pipeline.bitbucket.CheckoutDef
+import com.github.d1le.pipeline.email.StageResultsBlock
+import com.github.d1le.pipeline.jenkins.BuildDef
+import com.github.d1le.pipeline.log.LoggerManager
+import com.github.d1le.pipeline.nexus.ArtifactDef
 
 import static org.myproject.jenkins.MyProjectBuildContext.ctx
 import static org.myproject.jenkins.MyProjectBuildContext.staged
-import static ru.sbrf.pegi18.pipeline.jenkins.PipelineSupport.pipe
+import static com.github.d1le.pipeline.jenkins.PipelineSupport.pipe
 
 // create specific implementation of BuildContext
 pipe(MyProjectBuildContext.newInstance(this)) {

@@ -1,7 +1,7 @@
 package org.myproject.bitbucket
 
-import ru.sbrf.pegi18.pipeline.bitbucket.Bitbucket
-import ru.sbrf.pegi18.pipeline.bitbucket.Bitbuckets
+import com.github.d1le.pipeline.bitbucket.Bitbucket
+import com.github.d1le.pipeline.bitbucket.Bitbuckets
 
 /**
  * @author Alexey Lapin

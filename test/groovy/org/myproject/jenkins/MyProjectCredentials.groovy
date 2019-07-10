@@ -1,7 +1,7 @@
 package org.myproject.jenkins
 
-import ru.sbrf.pegi18.pipeline.jenkins.Cred
-import ru.sbrf.pegi18.pipeline.jenkins.Credentials
+import com.github.d1le.pipeline.jenkins.Cred
+import com.github.d1le.pipeline.jenkins.Credentials
 
 /**
  * @author Alexey Lapin
